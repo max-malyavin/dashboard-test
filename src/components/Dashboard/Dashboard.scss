@@ -1,0 +1,39 @@
+.input-wrapper {
+  padding: 10px 16px 10px 13px;
+  height: 45px;
+  max-width: 954px;
+  border: 1px solid #ebebeb;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.input-search {
+  padding: 0;
+  border: none;
+  outline: none;
+  display: inline-block;
+  max-width: 835px;
+  width: calc(100% - 120px);
+  color: #474747;
+  ::placeholder {
+    color: #d1d1d1;
+  }
+}
+.input-suffix-search {
+  width: 13px;
+  height: 14px;
+  display: inline-block;
+  margin-right: 11px;
+}
+.input-suffix-info {
+  width: 74px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  display: inline-block;
+  color: #d1d1d1;
+  text-align: right;
+}

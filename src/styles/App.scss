@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --max-width: 1054px;
+  --max-height: 790px;
+  --fixed-width: 700px;
+  --mainBc: #fafafa;
+  --title: #222222;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-family: Montserrat;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--mainBc);
+  height: 100%;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.container {
+  max-width: var(--max-width);
+  max-height: var(--max-height);
+  height: 100%;
+  margin: 0 auto;
+  padding: 48px;
+  &__inner {
+    overflow: hidden;
+    height: 100%;
+  }
+}
